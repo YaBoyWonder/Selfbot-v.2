@@ -9,8 +9,7 @@ const selfBot = new FocaBotCore({
 
   prefix:     'self.',
   token:      ":V",
-  waifuTag:   '', // danbooru tag
-
+  
   modulePath: path.join(__dirname, 'modules/'),
 });
 
