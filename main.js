@@ -6,7 +6,6 @@ const FocaBotCore = require('focabot-core');
 const selfBot = new FocaBotCore({
   name:       'SelfBot v.2',
   selfBot:    true,
-
   prefix:     'self.',
   token:      ":V",
   
