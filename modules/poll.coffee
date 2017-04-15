@@ -11,7 +11,7 @@ class PollModule extends BotModule
         question: args[0]
         answers: args.slice(1)
       embed =
-        color: 0xB1FF86
+        color: 0xF9EDEA
         title: poll.question
         description: ''
       for answer,i in poll.answers
