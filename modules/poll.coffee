@@ -1,5 +1,4 @@
 options = ['🇦','🇧', '🇨','🇩','🇪','🇫','🇬','🇭','🇮','🇯','🇰','🇱','🇲','🇳','🇴']
-
 class PollModule extends BotModule
   init: =>
     { @permissions } = @engine
@@ -20,5 +19,4 @@ class PollModule extends BotModule
       .then (m)=>
         for i in [0..poll.answers.length-1]
           m.addReaction(options[i])
-
 module.exports = PollModule
