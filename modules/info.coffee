@@ -14,4 +14,4 @@ class StatsModule extends BotModule
       """
        msg.channel.sendMessage reply
 
-module.exports = InfoModule
+  module.exports = InfoModule
