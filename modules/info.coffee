@@ -12,6 +12,6 @@ class StatsModule extends BotModule
       SelfBot Status: `#{@bot.User.status}`
       Currently joined to #{serverCount} servers.
       """
-      msg.channel.sendMessage reply
+       msg.channel.sendMessage reply
 
 module.exports = InfoModule
