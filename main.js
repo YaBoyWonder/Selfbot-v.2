@@ -12,7 +12,7 @@ const selfBot = new FocaBotCore({
   modulePath: path.join(__dirname, 'modules/'),
 });
 
-selfBot.modules.load(['ping', 'status']);
+selfBot.modules.load(['ping', 'status, poll, info, msgs']);
 
 selfBot.establishConnection();
 
