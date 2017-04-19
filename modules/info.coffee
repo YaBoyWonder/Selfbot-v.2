@@ -13,5 +13,4 @@ class StatsModule extends BotModule
       Currently joined to #{serverCount} servers.
       """
        msg.channel.sendMessage reply
-
   module.exports = InfoModule
