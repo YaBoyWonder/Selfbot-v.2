@@ -11,7 +11,7 @@ class SenderModule extends BotModule
       int = setInterval =>
         msg.edit(args.substr(0,++cnt))
         clearInterval int if cnt >= args.length+1
-      , 1000
+       , 1000
 
     @registerCommand 'rind', {everyone: true}, (msg, args)=>
       replaces = {
