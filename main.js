@@ -6,10 +6,10 @@ const FocaBotCore = require('focabot-core');
 const selfBot = new FocaBotCore({
   name:       'SelfBot v.2',
   selfBot:    true,
-  prefix:     'self.',
+  prefix:     's.',
   token:      ":V",
   
-  modulePath: path.join(__dirname, 'modules/'),
+  modulePath: path.join(__dirname, './modules'),
 });
 
 selfBot.modules.load(['ping', 'status, poll, info, msgs']);
