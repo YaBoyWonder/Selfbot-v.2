@@ -4,4 +4,4 @@
 # Selfbot-v.2
 Version 2 of my Discord Selfbot In Coffeescript
 
-*its not complete yet, soon it will be*
+*~its not complete yet, soon it will be*
