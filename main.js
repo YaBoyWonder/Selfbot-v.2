@@ -2,7 +2,7 @@ require('coffeescript/register')
 const os = require('os');
 const path = require('path');
 const FocaBotCore = require('focabot-core');
-
+  
 const selfBot = new FocaBotCore({
   name:       'SelfBot v.2',
   selfBot:    true,
