@@ -12,7 +12,7 @@ class SenderModule extends BotModule
         msg.edit(args.substr(0,++cnt))
         clearInterval int if cnt >= args.length+1
        , 1000
-
+    
     @registerCommand 'rind', {everyone: true}, (msg, args)=>
       replaces = {
          a: '🇦', b: '🇧', c: '🇨', d: '🇩', e: '🇪', f: '🇫', g: '🇬', h: '🇭', i: '🇮'
