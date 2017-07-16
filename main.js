@@ -7,7 +7,7 @@ const selfBot = new FocaBotCore({
   name:       'SelfBot v.2',
   selfBot:    true,
   prefix:     's.',
-  token:      ":V",
+  token:      "ACC_TOKEN",
   
   modulePath: path.join(__dirname, './modules'),
 });
